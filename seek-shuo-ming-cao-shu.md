@@ -14,12 +14,6 @@
  目录 src\main\ipcManager
 ```
 
-{% swagger method="get" path="" baseUrl="" summary="" %}
-{% swagger-description %}
-
-{% endswagger-description %}
-{% endswagger %}
-
 * 每次新建tab页面 都会创建一个自定义 View 实例, 里面储存诸如:
   * Url - 自定义变量
   *   BrowserWindow - electron 原生实例变量 > View 内部储存的 BrowserWindows 负责收集所有tab(View)及相关数据
