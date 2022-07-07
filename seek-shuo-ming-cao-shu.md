@@ -11,7 +11,7 @@
 * seek 页面渲染进程和主进程通讯 通过 ipcRenderer 和 ipcMain 通讯
 
 ```
- 目录 src\main\ipcManager
+ 目录 src\main\ipcManager test
 ```
 
 * 每次新建tab页面 都会创建一个自定义 View 实例, 里面储存诸如:
